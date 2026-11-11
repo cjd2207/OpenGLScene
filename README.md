@@ -1,5 +1,6 @@
 # OpenGLScene
-# OpenGLScene
+
+![](https://github.com/cjd2207/OpenGLScene/blob/master/OpenGLScene.png)
 
 An independently developed 3D graphics project demonstrating real-time rendering, lighting and model loading using OpenGL.
 
@@ -43,5 +44,3 @@ The scene features:
 See the screenshot below for an example of the rendered scene.
 
 Controls: W = Forward, S = Backward, A = Left, D = Right, ESC = Close
-
-![](https://github.com/cjd2207/OpenGLScene/blob/master/OpenGLScene.png)
