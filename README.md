@@ -1,40 +1,47 @@
 # OpenGLScene
 
-![](https://github.com/cjd2207/OpenGLScene/blob/master/OpenGLScene.png)
+An interactive 3D graphics application developed using C++ and modern OpenGL.
 
-An independently developed interactive 3D graphics application using C++ and OpenGL.
+![OpenGLScene](OpenGLScene.png)
 
 ## Overview
 
-OpenGLScene demonstrates real-time 3D rendering, lighting, model loading and animation within an interactive environment.
+OpenGLScene is a 3D graphics application demonstrating real-time rendering, lighting, shadow mapping, model loading and animation.
 
-The scene features an animated helicopter flying in a circular path, alongside a navigable 3D environment with multiple light sources and a camera-attached spotlight.
+The scene features an animated helicopter flying in a circular path, multiple aircraft models, a textured environment and several dynamic light sources. The player can freely navigate the environment using a first-person camera, with a spotlight attached to the camera that illuminates the surroundings as they move.
 
-### Features
+## Features
 
-- **3D Model Rendering:** Loading and rendering 3D models using Assimp.
-- **Dynamic Lighting:** Multiple light sources illuminating the environment.
-- **Camera Spotlight:** A spotlight attached to the camera that moves with the player.
-- **Object Animation:** An animated helicopter following a circular flight path.
-- **Interactive Camera:** Navigate around the 3D environment using keyboard controls.
-- **Skybox:** Background environment rendering.
+- **3D Model Loading and Rendering** – Importing and rendering 3D models using Assimp.
+- **Multiple Lighting Types** – Directional lights, point lights and spotlights.
+- **Dynamic Camera Spotlight** – A spotlight attached to the camera that follows the player's movement and viewing direction.
+- **Shadow Mapping** – Directional and omnidirectional shadow mapping.
+- **Omnidirectional Shadows** – Cubemap-based depth mapping for point light shadows.
+- **Object Animation** – An animated helicopter following a circular flight path.
+- **Interactive Camera** – First-person movement through the 3D environment.
+- **Skybox Rendering** – Environmental background rendering.
+- **Shader Programming** – GLSL shaders for rendering, lighting and shadow calculations.
 
 ## Technologies & Libraries
 
-- **C++**
-- **OpenGL**
+- **C++** – Application logic and rendering systems.
+- **OpenGL** – Real-time graphics rendering.
 - **GLEW** – OpenGL extension loading.
 - **GLFW** – Window management and input handling.
 - **Assimp** – 3D model importing.
 - **GLM** – Mathematics library for graphics programming.
+- **GLSL** – Vertex and fragment shaders.
 
 ## Building & Running
 
-1. Open the Visual Studio solution (`.sln`).
-2. Build the project using Visual Studio.
-3. Run the application.
+The project uses a Visual Studio solution.
 
-Originally developed using Visual Studio 2015. Successfully opened and run using Visual Studio 2022.
+1. Clone or download the repository.
+2. Open `OpenGLScene.sln` in Visual Studio.
+3. Build the solution.
+4. Run the application.
+
+Originally developed using Visual Studio 2015. The project has also been successfully opened, built and run using Visual Studio 2022.
 
 ## Controls
 
@@ -46,6 +53,10 @@ Originally developed using Visual Studio 2015. Successfully opened and run using
 | D | Move right |
 | ESC | Close application |
 
-## Screenshots
+## Project Background
 
-![OpenGLScene - Interactive 3D Graphics](Screenshots/OpenGLScene.png)
+This project was developed as part of my learning journey with C++ and modern OpenGL, following the Udemy course [Computer Graphics with Modern OpenGL](https://www.udemy.com/course/graphics-with-modern-opengl/).
+
+The course provided practical experience with real-time rendering, lighting models, shadow mapping, 3D transformations, model importing and shader programming.
+
+This project represents a practical application of the graphics programming techniques explored during the course.
